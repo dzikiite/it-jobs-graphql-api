@@ -1,4 +1,4 @@
-import { gql } from "apollo-server-express";
+import { gql } from 'apollo-server-express';
 
 export const typeDefs = gql`
     type Job {
@@ -16,9 +16,7 @@ export const typeDefs = gql`
     }
 
     type Mutation {
-        addNewJobs(
-            job: JobInput!
-        ): Job!
+        addNewJobs(job: JobInput!): Job!
     }
 
     input JobInput {
