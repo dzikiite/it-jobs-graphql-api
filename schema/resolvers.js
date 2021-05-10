@@ -1,4 +1,3 @@
-import { jobs } from '../fakeData.js';
 import { Job } from '../models/job.js';
 
 export const resolvers = {
